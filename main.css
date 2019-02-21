@@ -1,0 +1,139 @@
+
+/* Global elements styling */
+html, body{
+    background-color: bisque;
+    text-align: center;
+
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: aliceblue;
+}
+li{
+    float: left;
+}
+li a{
+    color: #ff33ff;
+    display: block;
+    font-size: 30px;
+    
+    padding: 14px 16px;
+    text-decoration: none;
+}
+/* nav bar styling*/
+header{
+    display: flex;  
+    align-items: left;
+    margin: 10px 10px;
+    
+}
+h3,h4{
+    margin: 0 0;
+    background-color: cornflowerblue;
+    font-size: 1.5em;
+    text-align: center;
+    color: azure;
+}
+
+/* Global id styling */
+
+#header-img{
+    margin-left: 50px;
+    height: 80px;
+}
+#nav-bar{
+    width: 80%;
+    position: fixed;
+    top: 0;
+}
+#form{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+#email{
+    margin: 5px 5px;
+    height: 2em;
+    width: 18em;
+    border: 0.1px solid;
+    border-radius: 5px;
+}
+#howtouse{
+    margin: 20px 20px;
+}
+#section{
+    margin: 20px 20px;
+}
+#nav-links{
+    float: center;
+}
+
+#customizationCost{
+    margin: 10px auto 40px auto;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 20%;
+    float: left;
+}
+    
+#customPro-text{
+    font-size: 1.1rem;
+    padding: 1px 5px;
+    background-color: rgb(231, 164, 92);
+}   
+@media (max-width: 500px){
+    #customPro-text{   height: 50%;    }
+} 
+#info{
+    margin: 0 auto;
+    font-size: 1.1em;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    float: center;
+    height: 100%;
+    width: 50%;
+    border: 2px solid rgb(204, 134, 134);
+    background-color: rgb(231, 164, 92);
+}
+
+/* Global classes styling */
+.container{
+    
+    margin: 0 auto;
+}
+
+.nav-link{
+    display: inline;
+    width: 100%;
+    float: center;
+    font-weight: 500;
+}
+.subBtn{
+    height: 3em;
+    width: 10em;
+    float: center;
+    margin: 15px 25px;
+    font-weight: 800;
+    border: 1px solid goldenrod;
+    border-radius: 5px;
+    background-color: blueviolet;
+}
+.customPro{
+
+    background-color: rgb(231, 164, 92);
+    margin: 5px 20px;
+    
+    border-radius: 2px;
+    height: 320px;
+    width: 250px;
+    text-align: left;
+}
+.hrC{
+    margin: 20px 20px;
+    padding: 20px 20px;
+}
